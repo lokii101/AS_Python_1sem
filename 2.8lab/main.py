@@ -24,3 +24,5 @@ def find_min_year(filename):
                     else:
                         print({line})
     return min(years) if years else None
+min_year = find_min_year(r"C:\Users\253810\Desktop\111.txt")
+print(min_year)
